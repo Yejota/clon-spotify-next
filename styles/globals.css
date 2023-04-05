@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: Roboto, 'sans-serif';
+  }
+  
+  .debug {
+    border: 1px solid red;
+  }
+  
+  .contenedor-principal {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  aside {
+    width: 241px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 24px;
+  }
+  
+  main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  nav {
+    background-color: #0f0f0f;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 32px;
+  }
+  
+  section {
+    background-color: #1e1e1e;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 50% 50%;
+  }
+  
+  footer {
+    background-color: #121212;
+    height: 103px;
+  }
+  
+  .menu-principal {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  .contenedor-menus {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .elemento-menu {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+  }
+  
+  .contenedor-playlists {
+    padding: 24px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .playlist-header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .playlists {
+    display: flex;
+    gap: 24px;
+    width: 85vw;
+    overflow-x: auto;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    padding: 16px;
+    border-radius: 6px;
+    background-color: #181818;
+    width: 181px;
+  }
+  
+  .card > span {
+    text-align: start;
+  }
+  
+  .playlist-img {
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border-radius: 6px;
+  }
+  
+  .card-title {
+    font-size: 15px;
+    font-weight: 600;
+  }
+  
+  .card-description {
+    font-size: 13px;
+    font-weight: 400;
+    color: #a7a7a7;
+  }
+  
+  .navigation-icon-container {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+  }
+  
+  .auth-container {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .login-button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 15px 32.375px 15px 32px;
+    width: 109.38px;
+    height: 48px;
+    background-color: #ffffff;
+    border-radius: 500px;
+    color: #000;
+  }
+  
+  .login-button > span {
+    color: #000;
+    font-weight: bold;
+  }
+  
+  .sign-up {
+    color: #a7a7a7;
+  }
+  
+  .yeison{
+   color: black;   
+  }
