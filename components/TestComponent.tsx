@@ -1,11 +1,10 @@
-import React from 'react'
 
 
-const TestComponent = () => {
+const TestComponent = ({children}) => {
   return (
-    <div className="yeison"> testcomponent </div>  
-  ) 
-
+    
+    <div className ="yeison"> {children} </div>  
+  )  
 };
 
 export {TestComponent};

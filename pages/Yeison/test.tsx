@@ -5,11 +5,17 @@ const testPage = () => {
   return (
     <div>
         <span className="yeison"> Pagina de Test </span>
+        
+        <TestComponent contenido="Yeison">
+        <span className="yeison"> Holaa</span>
+        
+        </TestComponent>
 
-        <TestComponent/>
-        <TestComponent/>
-        <TestComponent/>
-        <TestComponent/>
+       {/*<TestComponent contenido="Jimenez"/>
+        <TestComponent contenido="andes"/>
+        <TestComponent contenido="35 años"/>*/}
+
+        
         
     </div>
   )
