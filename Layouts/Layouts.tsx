@@ -3,24 +3,26 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import React from 'react'
 
-const Layouts = () => {
-  return 
+interface LayoutProps{
+  children:JSX.Element;
+}
+
+const Layouts = ({children}: LayoutProps) => {
+  return  (
     <div>
     <div className="contenedor-principal yeison">
         <Sidebar/>
     <main>
       <Navbar/>
-      <section>
-
-        <span>Pagina Yeison</span>
-       
-      </section>
+      {children}
       <Footer/>
     </main>
     </div>
 
     </div>
-  
-}
 
-export default Layouts
+  )
+  
+};
+
+export {Layouts};

@@ -1,23 +1,17 @@
-import { Sidebar } from "@/components/Sidebar";
-import { Navbar } from "@/components/Navbar";
-import { Footer } from "@/components/Footer";
+import { Layouts } from "@/Layouts/Layouts";
+
 
 const index = () => {
   return (
-    <div className="contenedor-principal yeison">
-        <Sidebar/>
-    <main>
-      <Navbar/>
-      <section>
+
+      <Layouts>
+         <section>
 
         <span>Pagina Yeison</span>
        
-      </section>
-      <Footer/>
-    </main>
-
-
-    </div>
+         </section>
+      </Layouts>  
+      
   )
 };
 

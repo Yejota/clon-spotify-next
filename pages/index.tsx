@@ -1,12 +1,10 @@
-import { Footer } from "@/components/Footer";
-import { Navbar } from "@/components/Navbar";
-import {Sidebar }from "@/components/Sidebar";
-const IndexPage=()=>{
-  return <div className="contenedor-principal"> 
 
-    <Sidebar/>
-    <main>
-      <Navbar/>
+import {Layouts} from "@/Layouts/Layouts";
+
+const IndexPage=()=>{
+  return ( 
+
+      <Layouts>
       <section>
         <div className="contenedor-playlists">
           <div className="playlist-header">
@@ -145,10 +143,9 @@ const IndexPage=()=>{
           </div>
         </div>
       </section>
-      <Footer/>
-    </main>    
-
-     </div>;
+      </Layouts> 
+      
+  )
      
 };
 
